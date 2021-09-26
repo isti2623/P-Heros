@@ -9,16 +9,16 @@ const Team = (props) => {
     return (
         <div className="col-md-4 g-4">
             <div className="item-product container-fluid mt-3">
-                <div class="card h-100 shadow mb-5">
-                    <img src={img} class="card-img-top img-fluid w100 img-thumbnail custom" alt="..."></img>
-                    <div class="card-body">
-                        <h5 class="card-title text-center fw-bold">{name}</h5>
+                <div className="card h-100 shadow mb-5">
+                    <img src={img} className="card-img-top img-fluid w100 img-thumbnail custom" alt="..."></img>
+                    <div className="card-body">
+                        <h5 className="card-title text-center fw-bold">{name}</h5>
                         <p className="text-center text-danger">{profession}</p>
                         <p className="text-center">{hero}</p>
-                        <p class="card-text text-center">{salary}$</p>
+                        <p className="card-text text-center">{salary}$</p>
                     </div>
 
-                    <button onClick={() => props.handleAddToBag(props.hero)} type="button" class="btn btn-danger">Buy Now{element}</button>
+                    <button onClick={() => props.handleAddToBag(props.hero)} type="button" className="btn btn-danger">Buy Now{element}</button>
 
 
                 </div>
