@@ -9,7 +9,7 @@ const Team = (props) => {
     return (
         <div className="col-md-4 g-4">
             <div className="item-product container-fluid mt-3">
-                <div class="card h-100">
+                <div class="card h-100 shadow mb-5">
                     <img src={img} class="card-img-top img-fluid w100 img-thumbnail custom" alt="..."></img>
                     <div class="card-body">
                         <h5 class="card-title text-center fw-bold">{name}</h5>

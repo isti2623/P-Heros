@@ -26,7 +26,7 @@ const Cart = (props) => {
             <br />
             <p className="text-white text-center fw-bold">Total: {total.toFixed(2)}</p>
             <p className="text-white text-center fw-bold">Order List:{names}</p>
-            <div className="btn btn-light ms-5">Order Now</div>
+
         </div>
     );
 };
